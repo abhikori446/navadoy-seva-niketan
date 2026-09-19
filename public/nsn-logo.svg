@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%" aria-label="Howrah Danesh Sk Lane Navaday Seva Niketan Logo">
+  <defs>
+    <!-- Circular Path for Top Text -->
+    <path id="circlePathTop" d="M 75,250 A 175,175 0 1,1 425,250" fill="none" />
+    <!-- Circular Path for Bottom Text -->
+    <path id="circlePathBottom" d="M 425,250 A 175,175 0 0,1 75,250" fill="none" />
+    
+    <!-- Linear Gradients for Premium Depth -->
+    <linearGradient id="emeraldBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#047857" />
+      <stop offset="100%" stop-color="#065f46" />
+    </linearGradient>
+    <linearGradient id="warmOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#ea580c" />
+    </linearGradient>
+    <linearGradient id="growthGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Ring -->
+  <circle cx="250" cy="250" r="236" fill="#ffffff" stroke="url(#emeraldBorder)" stroke-width="26" />
+  
+  <!-- Subtle Inner Guide Ring -->
+  <circle cx="250" cy="250" r="208" fill="none" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="3 3" />
+
+  <!-- Circular Outer Text: Top Section -->
+  <text font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="21.5" fill="#d97706" letter-spacing="4px">
+    <textPath href="#circlePathTop" startOffset="50%" text-anchor="middle">
+      HOWRAH DANESH SK LANE NAVADAY SEVA NIKETAN
+    </textPath>
+  </text>
+
+  <!-- Circular Outer Text: Bottom Section -->
+  <text font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="21.5" fill="#d97706" letter-spacing="4px">
+    <textPath href="#circlePathBottom" startOffset="50%" text-anchor="middle">
+      HOWRAH DANESH SK LANE NAVADAY SEVA
+    </textPath>
+  </text>
+
+  <!-- Center Decorative Artwork Group -->
+  <g id="center-emblem" transform="translate(250, 260) scale(0.92) translate(-250, -250)">
+    <!-- Base Sweeping Foundation Arc (Warm Orange/Saffron) -->
+    <path d="M 130,370 C 190,410 320,380 400,310 C 350,328 240,345 175,325 C 150,317 138,340 130,370 Z" fill="url(#warmOrange)" />
+
+    <!-- Shelter / Roof Outlines -->
+    <!-- Left Roof (Orange) -->
+    <path d="M 160,260 L 255,190 L 308,262" fill="none" stroke="#ea580c" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <!-- Right Roof (Slate Grey) -->
+    <path d="M 270,210 L 355,270" fill="none" stroke="#475569" stroke-width="18" stroke-linecap="round" />
+
+    <!-- Small House Wall & Window Details -->
+    <rect x="220" y="235" width="10" height="12" rx="2" fill="#64748b" />
+    <rect x="220" y="255" width="10" height="12" rx="2" fill="#64748b" />
+
+    <!-- Supporting Pillar / Number 1 Stem (Orange) -->
+    <path d="M 190,320 L 190,225 L 160,260" fill="none" stroke="#ea580c" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Adult / Caring Guide Figure (Orange Body + Red Head) -->
+    <!-- Head -->
+    <circle cx="260" cy="130" r="16" fill="#dc2626" />
+    <!-- Curved Caring Body Swirl -->
+    <path d="M 260,152 C 240,165 210,195 220,240 C 225,260 235,285 225,315" fill="none" stroke="url(#warmOrange)" stroke-width="15" stroke-linecap="round" />
+
+    <!-- Child / Empowered Youth Figure (Green Body + Green Head) -->
+    <!-- Head -->
+    <circle cx="184" cy="190" r="16" fill="#059669" />
+    <!-- Upward Reaching Green Arch -->
+    <path d="M 184,214 C 205,225 250,245 220,320 C 205,300 185,270 184,235" fill="none" stroke="url(#growthGreen)" stroke-width="15" stroke-linecap="round" />
+  </g>
+</svg>

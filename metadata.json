@@ -1,0 +1,7 @@
+{
+  "name": "Navadoy Seva Niketan",
+  "description": "Official portal for Navadoy Seva Niketan (NSN) - dedicated to education, healthcare, women empowerment, child welfare, and community transformation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
