@@ -46,7 +46,7 @@ You can deploy the code using either **Git (Recommended)** or **File Manager / F
 1. In **hPanel**, navigate to **Advanced** → **Node.js** (or search "Node.js" in the top search bar).
 2. Click **Create Application** (or manage existing).
 3. Fill in the configuration details:
-   - **Node.js Version:** Select **20.x** (or **18.x**).
+   - **Node.js Version:** Select **22.x** (recommended) or **20.x**.
    - **Application Mode:** Select **Production**.
    - **Application Root:** Enter the directory where files are located (e.g., `public_html`).
    - **Application Startup File:** Enter **`server.js`** *(Critical: Ensure this is set to `server.js`)*.

@@ -64,7 +64,7 @@ This project is configured out-of-the-box for **Hostinger Node.js Web App**.
 
 1. Connect your GitHub repository to Hostinger hPanel under **Advanced** → **Git**.
 2. Open **Advanced** → **Node.js** in Hostinger hPanel and configure:
-   - **Node.js Version:** 20.x or 18.x
+   - **Node.js Version:** 22.x (recommended) or 20.x
    - **Application Mode:** Production
    - **Application Root:** `public_html` (or your chosen path)
    - **Application Startup File:** `server.js`
